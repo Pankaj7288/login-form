@@ -1,0 +1,15 @@
+// Override default variables before the import
+// $body-bg: #000;
+$utilities: (
+  "max-width": (
+    property: max-width,
+    class:mw,
+    values: (
+      350: 350px,
+    )
+  )
+);
+
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
