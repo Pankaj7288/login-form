@@ -10,8 +10,10 @@ function App() {
   return (
     <div>
       <Form className="w-100 h-100 p-4 mx-auto my-3 mw-350 border border-1 border-secondary rounded-3">
-        <h1 className="fw-bold">MyWebSite.com</h1>
-        <h2 className="text-center">Welcome!</h2>
+        <div className="d-grid">
+          <h1 className="fw-bold text-center">MyWebSite.com</h1>
+          <h2 className="text-center">Welcome!</h2>
+        </div>
         <FormGroup>
           <Label>Email:</Label>
           <Input type="email" placeholder="Email" />
